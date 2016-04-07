@@ -10,11 +10,11 @@ If you add a file,
 
 1. Add the name of the file to the *Files with replacements* section below.
     * If it does not make sense to keep the old filename (as with music), write *old_name -> new_name* when you add it to the *Files with replacements* section. This will tell other people that the code or mission files need to be modified in order for it to work.
-    * If you need to add a special note (such as which code/mission file(s) is/are affected by it, add another bullet point nested below the filename explaining the change.
+    * If you need to add a special note (such as which code/mission file(s) is/are affected by the file), add another bullet point nested below the filename.
 2. Remove the name of the file from the *Files still needing replacements* section further below.
 3. Add the name of the file and the appropriate attribution (even if it is public domain) to **CREDITS**.
 
-**Note**: I have actually *not* played the game through completely, so I might naively replace some files with new ones that do not make sense in some cases.
+**Note**: I have actually **not** played the game through completely, so I might naively replace some files with new ones that do not make sense in some cases.
 
 ###Files with replacements
 * textures
