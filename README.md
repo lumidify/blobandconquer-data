@@ -16,6 +16,8 @@ If you add a file,
 
 **Note**: I have actually **not** played the game through completely, so I might naively replace some files with new ones that do not make sense in some cases.
 
+This means that once the files are replaced, we need testers to check if the game still seems normal.
+
 ###Files with replacements
 * textures
     * grasslands
@@ -37,6 +39,11 @@ If you add a file,
     * arctic
         * snow_01.png
 * sound
+    * ambience
+        * grasslands
+            * cardinal.ogg
+    * general
+        * rain.ogg
 * music
     * Helmet Shake.mod -> Intro.ogg
         * Line 55 of src/title.cpp needs to be changed to *audio->loadMusic("music/Intro.ogg");*
@@ -297,10 +304,8 @@ If you add a file,
         * general
             * baseAlarm.ogg
             * klaxon.ogg
-            * rain.ogg
         * grasslands
             * birdsong.ogg
-            * cardinal.ogg
             * falsebird.ogg
             * lapwing.ogg
             * robin.ogg
