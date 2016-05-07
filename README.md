@@ -44,6 +44,8 @@ This means that once the files are replaced, we need testers to check if the gam
             * cardinal.ogg
     * general
         * rain.ogg
+    * gui
+        * buttonClick.ogg
 * music
     * Helmet Shake.mod -> Intro.ogg
         * Line 55 of src/title.cpp needs to be changed to *audio->loadMusic("music/Intro.ogg");*
@@ -423,7 +425,6 @@ This means that once the files are replaced, we need testers to check if the gam
         * gulp.ogg
         * shieldDestroyed.ogg
     * gui
-        * buttonClick.ogg
         * cheatMode.ogg
 * music
     * A Bear Called Otso.xm
