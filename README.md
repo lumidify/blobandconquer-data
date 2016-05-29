@@ -49,6 +49,10 @@ This means that once the files are replaced, we need testers to check if the gam
 * music
     * Helmet Shake.mod -> Intro.ogg
         * Line 55 of src/title.cpp needs to be changed to *audio->loadMusic("music/Intro.ogg");*
+    * Dragon Cave.xm -> covert_operations.ogg
+        * Line 7 of data/missions/mission02 needs to be changed to *music = music/covert_operations.ogg;
+        * Line 7 of data/missions/mission03 needs to be changed to *music = music/covert_operations.ogg;
+        * Line 7 of data/missions/mission21 needs to be changed to *music = music/covert_operations.ogg;
 
 ###Files still needing replacements
 * textures
@@ -432,9 +436,7 @@ This means that once the files are replaced, we need testers to check if the gam
     * Autumns Dawning.s3m
     * Dark Club.s3m
     * Dark.s3m
-    * Dragon Cave.xm
     * Escape From Tower.xm
-    * Helmet Shake.mod
     * Liquid Crystal.xm
     * Longstabben.xm
     * Neutral Zone.xm
