@@ -29,6 +29,7 @@ This means that once the files are replaced, we need testers to check if the gam
         * grass03.jpg
         * grass04.jpg
         * grass5.jpg
+        * rock01.jpg
     * mech
         * crate.jpg
         * metalbox.jpg
@@ -73,7 +74,6 @@ This means that once the files are replaced, we need testers to check if the gam
         * gx_05_grass_02.jpg
         * kbtexture6.jpg
         * rimu_coloured.jpg
-        * rock01.jpg
         * rock43.jpg
         * rock44.jpg
         * rusticblk.jpg
